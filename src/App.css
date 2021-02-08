@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
+.card {
+  width: 18rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+img {
+  border-radius: 8px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  background: url(./images/bg02.jpg);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.mb-5{
+  margin-bottom: 1rem!important;
+}
+
+h1 {
   color: white;
+  text-shadow: 1px 1px 4px #000000;
 }
 
-.App-link {
-  color: #61dafb;
+h3 {
+  font-size: 1.4rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+span {
+  font-size: 15px !important;
+}
+
+.card-body {
+  padding: 0.3rem !important;
+}
+
+.col-md-6 {
+  padding-right: 5px !important;
+  padding-left: 5px !important;
+}
+
+form input[name="city"],
+form input[name="country"] {
+  background-color: transparent !important;
+  border-bottom: 2px solid #e0a800 !important;
+  border-radius: 0;
+  color: #eee;
+}
+
+input:focus,
+input.form-control:focus {
+  outline: none !important;
+  outline-width: 0 !important;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  
+}
+
+.fo{
+  margin-top: 15rem!important;
+}
+
+.row{
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+::placeholder{
+  color: #eee;
 }
